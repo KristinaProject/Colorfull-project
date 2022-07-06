@@ -1,11 +1,11 @@
 .static {
   grid-area: static;
-  background-image: url("../../_class_material/06.23/widget-background.png");
+  background-image: url("../images/widget-background.png");
 }
 
 .round-static {
   grid-area: round-static;
-  background-image: url("../../_class_material/06.23/widget-background2.png");
+  background-image: url("../images/widget-background2.png");
 }
 
 .static, .round-static {

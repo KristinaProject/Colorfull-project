@@ -87,13 +87,13 @@
 
 .mid1 {
   grid-area: mid1;
-  background-image: url("../../_class_material/06.23/bg-blue.png");
+  background-image: url("../images/bg-blue.png");
 }
 
 
 .mid2 {
   grid-area: mid2;
-  background-image: url("../../_class_material/06.23/bg-green.png");
+  background-image: url("../images/bg-green.png");
 }
 
 .mid1 span, .mid2 span{
