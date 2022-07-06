@@ -1,0 +1,145 @@
+.static {
+  grid-area: static;
+  background-image: url("../../_class_material/06.23/widget-background.png");
+}
+
+.round-static {
+  grid-area: round-static;
+  background-image: url("../../_class_material/06.23/widget-background2.png");
+}
+
+.static, .round-static {
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  box-shadow: var(--widget-box-shadow);
+  border-radius: var(--border-radius);
+  padding: 25px;
+}
+
+.static img {
+  width: 100%;
+}
+
+.static-header, .round-static__header,
+ .round-static__footer, .title, .img-container {
+  display: flex;
+  align-items: center;
+}
+
+.stroke {
+  width: 12px;
+  border: 1px solid;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.dark-blue {
+  border-color: #7b61ff;
+}
+
+.dark-red {
+  border-color: #ce2a96;
+}
+
+.static-header span {
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-right: 20px;
+  color: #949494;
+}
+
+.round-static__header span, .round-static__header h3, 
+.round-static__header button, .round-static p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.static-header {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.round-static__header h3 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.round-static__header {
+  justify-content: space-between;
+}
+
+.round-static__header button {
+  background-color: #fbfcfe;
+  border: 0.5px solid #dde4f0;
+  box-shadow: 0px 2px 1px rgba(64, 72, 82, 0.05);
+  border-radius: 5px;
+  font-size: 500;
+  font-size: 12px;
+  color: #5a6acf;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.round-static p {
+  margin: 0;
+  margin-bottom: 50px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.img-container {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.round-static img {
+  width: 50%;
+}
+
+.mini-wrapper {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.dark-dot {
+  background: #5A6ACF;
+}
+
+.light-dot {
+  background: #8593ED;
+}
+
+.pink-dot {
+  background: #FF81C5;
+}
+
+.title {
+  justify-content: flex-start;
+}
+
+.title span {
+    font-weight: 500;
+}
+
+.title span, .percents {
+  font-size: 12px;
+  color: #121212;
+  opacity: 0.8;
+}
+
+.percents {
+  padding-left: 20px;
+  font-weight: 400;
+}
